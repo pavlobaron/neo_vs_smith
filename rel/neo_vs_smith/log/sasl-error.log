@@ -1,0 +1,109 @@
+
+=PROGRESS REPORT==== 22-Mar-2013::12:30:23 ===
+          supervisor: {local,sasl_safe_sup}
+             started: [{pid,<0.38.0>},
+                       {name,alarm_handler},
+                       {mfargs,{alarm_handler,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 22-Mar-2013::12:30:23 ===
+          supervisor: {local,sasl_safe_sup}
+             started: [{pid,<0.39.0>},
+                       {name,overload},
+                       {mfargs,{overload,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 22-Mar-2013::12:30:23 ===
+          supervisor: {local,sasl_sup}
+             started: [{pid,<0.37.0>},
+                       {name,sasl_safe_sup},
+                       {mfargs,
+                           {supervisor,start_link,
+                               [{local,sasl_safe_sup},sasl,safe]}},
+                       {restart_type,permanent},
+                       {shutdown,infinity},
+                       {child_type,supervisor}]
+
+=PROGRESS REPORT==== 22-Mar-2013::12:30:23 ===
+          supervisor: {local,sasl_sup}
+             started: [{pid,<0.40.0>},
+                       {name,release_handler},
+                       {mfargs,{release_handler,start_link,[]}},
+                       {restart_type,permanent},
+                       {shutdown,2000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 22-Mar-2013::12:30:23 ===
+         application: sasl
+          started_at: 'neo_vs_smith@127.0.0.1'
+
+=PROGRESS REPORT==== 22-Mar-2013::12:30:23 ===
+          supervisor: {local,neo_vs_smith_sup}
+             started: [{pid,<0.46.0>},
+                       {name,matrix_fsm},
+                       {mfargs,{matrix_fsm,start_link,[<0.45.0>]}},
+                       {restart_type,temporary},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 22-Mar-2013::12:30:23 ===
+          supervisor: {local,neo_vs_smith_sup}
+             started: [{pid,<0.47.0>},
+                       {name,neo_srv},
+                       {mfargs,{neo_srv,start_link,[<0.45.0>]}},
+                       {restart_type,temporary},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 22-Mar-2013::12:30:23 ===
+          supervisor: {local,neo_vs_smith_sup}
+             started: [{pid,<0.48.0>},
+                       {name,smith_srv},
+                       {mfargs,{smith_srv,start_link,[<0.45.0>]}},
+                       {restart_type,temporary},
+                       {shutdown,5000},
+                       {child_type,supervisor}]
+
+=PROGRESS REPORT==== 22-Mar-2013::12:30:23 ===
+          supervisor: {local,neo_vs_smith_sup}
+             started: [{pid,<0.49.0>},
+                       {name,woman_srv},
+                       {mfargs,{woman_srv,start_link,[<0.45.0>]}},
+                       {restart_type,temporary},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 22-Mar-2013::12:30:23 ===
+          supervisor: {local,neo_vs_smith_sup}
+             started: [{pid,<0.50.0>},
+                       {name,jackson_srv},
+                       {mfargs,{jackson_srv,start_link,[<0.45.0>]}},
+                       {restart_type,temporary},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 22-Mar-2013::12:30:23 ===
+          supervisor: {local,neo_vs_smith_sup}
+             started: [{pid,<0.51.0>},
+                       {name,trinity_srv},
+                       {mfargs,{trinity_srv,start_link,[<0.45.0>]}},
+                       {restart_type,temporary},
+                       {shutdown,5000},
+                       {child_type,worker}]
+
+=PROGRESS REPORT==== 22-Mar-2013::12:30:23 ===
+          supervisor: {local,neo_vs_smith_sup}
+             started: [{pid,<0.52.0>},
+                       {name,smith_sup},
+                       {mfargs,{smith_sup,start_link,[<0.45.0>]}},
+                       {restart_type,temporary},
+                       {shutdown,5000},
+                       {child_type,supervisor}]
+
+=PROGRESS REPORT==== 22-Mar-2013::12:30:23 ===
+         application: neo_vs_smith
+          started_at: 'neo_vs_smith@127.0.0.1'

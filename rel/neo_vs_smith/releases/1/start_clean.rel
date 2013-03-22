@@ -1,0 +1,8 @@
+%% rel generated at {2013,3,22} {12,30,21}
+{release,{"start_clean",[]},
+         {erts,"5.9.2"},
+         [{kernel,"2.15.2"},
+          {stdlib,"1.18.2"},
+          {sasl,"2.2.1",load},
+          {neo_vs_smith,"1",load}]}.
+

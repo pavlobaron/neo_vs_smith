@@ -1,0 +1,18 @@
+-module(matrix_fsm).
+
+-behaviour(gen_fsm).
+
+-export([start_link/1, init/1, ready/2, busy/2]).
+
+start_link(MatrixPid) ->
+    gen_fsm:start_link(?MODULE, [MatrixPid], []).
+
+init(MatrixPid) ->
+    erlang:display(application:get_env(screenplay)),
+    {ok, busy, ok}.
+
+ready(_, _) ->
+    {next_state, busy, ok}.
+
+busy(_, _) ->
+    {next_state, ready, ok}.

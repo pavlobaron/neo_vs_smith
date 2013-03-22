@@ -1,0 +1,89 @@
+# Matrix
+regexp=Matrix|Erlang
+colours=bold white
+count=more
+=======
+# Neo
+regexp=Neo
+colours=bold green
+count=more
+=======
+# Smith
+regexp=Smith
+colours=bold red
+count=more
+=======
+# Trinity
+regexp=Trinity
+colours=bold magenta
+count=more
+=======
+# Woman
+regexp=Woman
+colours=bold cyan
+count=more
+=======
+# Jackson
+regexp=Jackson
+colours=bold yellow
+count=more
+=======
+# Smith creates clones
+regexp=\d+ clones
+colours=red bold
+count=more
+=======
+# Neo kills clones
+regexp=eliminates \d+ of \d+
+colours=green bold
+count=more
+=======
+# Smith creates clones
+regexp=(\d+ clones)|(\d+ of them)
+colours=bold red
+count=more
+=======
+# says... 
+regexp=(Come on.*$)|(Yes.*$)|(Me.*$)|(More.*$)|(It is.*$)|(You\..*$)
+colours=bold white
+count=more
+=======
+# Smith's code
+regexp=(System\.out.*$)|(for \(.*$)|(try \{.*$)|(throw new.*$)|(if \(.*$)
+colours=red
+count=more
+=======
+# Jackson's code
+regexp=begin.*$
+colours=yellow
+count=more
+=======
+# Woman
+regexp=(What the.*$)|(Oops.*$)
+colours=cyan
+count=more
+=======
+# Trinity
+regexp=(God.*$)
+colours=magenta
+count=more
+=======
+# Neo thinks
+regexp=(It's)|(damn it!.*$)|(You should.*$)|(you've been.*$)|(Aha.*$)|(Man.*$)|(I believe.*$)|(Oh, .*$)|(Really.*$)|(Never.*$)|(It's .*$)|(F\.\..*$)|(Hey.*$)|(Time.*$)|(Careful.*$)|(Make.*$)
+colours=green
+count=more
+=======
+# fights using
+regexp=\s\w*\sas weapon
+colours=green
+count=more
+=======
+# "
+regexp="
+colours=none
+count=more
+=======
+# ad
+regexp=Twitter|@pavlobaron
+colours=red bold
+count=more

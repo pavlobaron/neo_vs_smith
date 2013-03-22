@@ -1,0 +1,8 @@
+run_erl [57724] Fri Mar 22 12:30:23 2013
+Args before exec of shell:
+run_erl [57724] Fri Mar 22 12:30:23 2013
+argv[0] = sh
+run_erl [57724] Fri Mar 22 12:30:23 2013
+argv[1] = -c
+run_erl [57724] Fri Mar 22 12:30:23 2013
+argv[2] = exec /Users/pb/code/neo_vs_smith/rel/neo_vs_smith/bin/neo_vs_smith console '' 

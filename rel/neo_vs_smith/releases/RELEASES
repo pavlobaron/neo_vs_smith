@@ -1,0 +1,10 @@
+[{release,"neo_vs_smith","1","5.9.2",
+          [{kernel,"2.15.2",
+                   "/Users/pb/code/neo_vs_smith/rel/neo_vs_smith/lib/kernel-2.15.2"},
+           {stdlib,"1.18.2",
+                   "/Users/pb/code/neo_vs_smith/rel/neo_vs_smith/lib/stdlib-1.18.2"},
+           {sasl,"2.2.1",
+                 "/Users/pb/code/neo_vs_smith/rel/neo_vs_smith/lib/sasl-2.2.1"},
+           {neo_vs_smith,"1",
+                         "/Users/pb/code/neo_vs_smith/rel/neo_vs_smith/lib/neo_vs_smith-1"}],
+          permanent}].
